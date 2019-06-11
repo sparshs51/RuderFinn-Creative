@@ -46,6 +46,20 @@
     };
 
 
+    $(".show").hide();
+    $(".img1").hide();
+    $(".hid").hover(function(){
+        $(this).next().show(500);
+
+    });
+    $(".hid1").hover(function(){
+        $(".img1").show(1000);
+    });
+    $(".scrr").click(function(){
+        $(".show").hide(200);
+    });
+
+
     (function() {
   function randomRainDropLocation() {
     return Math.floor(Math.random() * 100);  

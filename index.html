@@ -130,11 +130,7 @@
 
             </div>
 
-            <div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
+            
 
             <div class="home-content__line"></div>
 
@@ -160,6 +156,11 @@
         </ul> 
 
 </div>
+<div class=" row home-content__scroll" style="left: 50%;">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
 
 
 
@@ -169,12 +170,23 @@
     <!-- about
     ================================================== -->
     <section id='about' class="s-about">
-        <div class="sss hov"></div>
+        
+                <div style="min-height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.2">
+                    <video autoplay muted loop id="myVideo" class="hidden-mobile">
+                    <source src="images/Pexels Videos 1654216.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+                </div>
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-right">
+        <div class="row section-header has-bottom-sep"  data-aos="fade-right">
             <div class="col-full">
 
-                <h1 class="display-1 display-1--light">SONAR Crisis Simulation System</h1>
+                <h1 class="display-1 display-1--light" style="margin-top: 9rem;">SONAR Crisis Simulation System</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -210,7 +222,7 @@
 
         </div> <!-- end about-stats -->
 
-        <div class="about__line"></div>
+        <div class="about__line" style="margin-bottom: 10rem;"></div>
 
     </section> <!-- end s-about -->
 
@@ -218,6 +230,7 @@
     <!-- services
     ================================================== -->
     <section id='services' class="s-services">
+        
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
@@ -230,286 +243,113 @@ data-paroller-transition="transform .2s linear">We’ve got everything you need 
         </div> <!-- end section-header -->
 
         <div class="row services-list block-1-2 block-tab-full">
-
-            <div class="col-full service-item" data-aos="fade-right">
+            <div class="col-six">
+                <div class="col-full service-item" style="padding-left: 80px; padding-right: -10px; " data-aos="zoom-in-left">
                 <div class="service-icon">
-                    <i class="icon-paint-brush"></i>
-                </div>
+                    <i class="icon-megaphone"></i>
+                </div>  
                 <div class="service-text">
-                    <h3 class="h2">Influence</h3>
-                    <p>You can never completely control what’s next. But we monitor, manage and measure your story to help ensure that it influences the people you want, in the way that you want. We manage media channels, from owned to earned to paid, to make sure your story stays true to your vision. We employ sophisticated SEO and SEM to optimize the influence your story has on the people that matter. We proactively manage potential issues to keep your brand resilient for whatever comes next.
+                    <h3 class="h2 hid hid1">Story</h3>
+                    <p class="show">Every vision starts with a story. We help uncover and shape the stories that bring your vision to life. We apply critical insight to make sure your story resonates with your audience and achieves the desired response. We create stand-out content – from compelling narrative to electrifying design and video – to make sure your story is read, seen and heard. We continually build and evolve your story as you move from now to what’s next.
                     </p>
                 </div>
             </div>
+
+            
+            
 
             <div class="col-full service-item" data-aos="fade-up">
                 <div class="service-icon">
                     <i class="icon-group"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Connection</h3>
-                    <p>We build meaningful connections with the people that matter. We carefully map stakeholders – from media, influencers and shapers, to customers and partners, to employees and general public – to identify the right channels and voices to carry your story. We frame and spark valuable conversations through traditional and social media channels. We construct powerful brand experiences – from digital engagements to live events – that emotionally and intellectually connect to who you are and who you will become.                    </p>
+                    <h3 class="h2 hid">Connection</h3>
+                    <p class="show" style="width: 200%;">We build meaningful connections with the people that matter. We carefully map stakeholders – from media, influencers and shapers, to customers and partners, to employees and general public – to identify the right channels and voices to carry your story. We frame and spark valuable conversations through traditional and social media channels. We construct powerful brand experiences – from digital engagements to live events – that emotionally and intellectually connect to who you are and who you will become.                    </p>
                 </div>
                 
             </div>
 
-            <div class="col-full service-item" style="padding-left: 80px; padding-right: -10px; " data-aos="zoom-in-left">
+            <div class="col-full service-item">
                 <div class="service-icon">
-                    <i class="icon-megaphone"></i>
-                </div>  
+                    <i class="icon-paint-brush"></i>
+                </div>
                 <div class="service-text">
-                    <h3 class="h2">Story</h3>
-                    <p>Every vision starts with a story. We help uncover and shape the stories that bring your vision to life. We apply critical insight to make sure your story resonates with your audience and achieves the desired response. We create stand-out content – from compelling narrative to electrifying design and video – to make sure your story is read, seen and heard. We continually build and evolve your story as you move from now to what’s next.
+                    <h3 class="h2 hid hid3">Influence</h3>
+                    <p class="show" style="width: 200%;">You can never completely control what’s next. But we monitor, manage and measure your story to help ensure that it influences the people you want, in the way that you want. We manage media channels, from owned to earned to paid, to make sure your story stays true to your vision. We employ sophisticated SEO and SEM to optimize the influence your story has on the people that matter. We proactively manage potential issues to keep your brand resilient for whatever comes next.
                     </p>
                 </div>
             </div>
+            </div>
+
+            <div class="col-six service-item aa" style="padding-left: 80px; padding-right: -10px; " data-paroller-factor="0.5" data-paroller-type="foreground"
+data-paroller-direction="horizontal"
+data-paroller-transition="transform .2s linear">
+                <img src="images/sonar experience.PNG" class="img1">
+            </div>
+
+            
+
+
+            
 
             
         
 
         </div> <!-- end services-list -->
+        <div class="row scrr home-content__scroll" style="left: 50%">
+                <a href="#clients" class="scroll-link smoothscroll">
+                    <span style="color: green;">Scroll Down</span>
+                </a>
+            </div>
+
 
     </section> <!-- end s-services -->
 
 
     <!-- works
     ================================================== -->
-    <section id='works' class="s-works">
 
-        <div class="intro-wrap">
-                
-            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
-                <div class="col-full">
-                    <h3 class="subhead">Our Team</h3>
-                    <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1>
-                </div>
-            </div> <!-- end section-header -->
 
-        </div> <!-- end intro-wrap -->
 
-        <div class="row works-content">
-            <div class="col-full masonry-wrap">
-                <div class="masonry">
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                    <img src="images/portfolio/lady-shutterbug.jpg" 
-                                         srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Shutterbug
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Branding
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                    <img src="images/portfolio/woodcraft.jpg" 
-                                         srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Woodcraft
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                    <img src="images/portfolio/the-beetle.jpg"
-                                         srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    The Beetle
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Development
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
-                                    <img src="images/portfolio/grow-green.jpg" 
-                                         srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Grow Green
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Branding
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
-                                    <img src="images/portfolio/guitarist.jpg" 
-                                         srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Guitarist
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
-                                    <img src="images/portfolio/palmeira.jpg"
-                                         srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Palmeira
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                </div> <!-- end masonry -->
-            </div> <!-- end col-full -->
-        </div> <!-- end works-content -->
-
-    </section> <!-- end s-works -->
 
 
     <!-- clients
     ================================================== -->
     <section id="clients" class="s-clients">
 
-        <div class="row section-header" data-aos="fade-up">
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='title'>
+  <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Our Clients</h3>
-                <h1 class="display-2">We have been honored to
+                <h3 id="title" style="color: green; margin: 10px 0 0 0">Our Clients</h3>
+                <h1 class="display-2" style="color: #c1c1c1;">We have been honored to
                 partner up with these clients</h1>
             </div>
-        </div> <!-- end section-header -->
+        </div>
+    </div>
+
 
         <div class="row clients-outer" data-aos="fade-up">
             <div class="col-full">
                 <div class="clients">
                     
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/apple.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/atom.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/blackberry.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/dropbox.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/amex.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/bayer.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/cartier.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/loreal.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/maxims.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/mtr.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/nestle.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/suntory.png" /></a>
                      
                 </div> <!-- end clients -->
             </div> <!-- end col-full -->
         </div> <!-- end clients-outer -->
-
-
-
-        <div class="row clients-testimonials" data-aos="fade-up">
+        <div class="row clients-testimonials" data-aos="fade-up" style="
+    background: #11111160;
+}">
             <div class="col-full">
                 <div class="testimonials">
 
@@ -557,6 +397,13 @@ data-paroller-transition="transform .2s linear">We’ve got everything you need 
                 
             </div> <!-- end col-full -->
         </div> <!-- end client-testimonials -->
+
+         <!-- end section-header -->
+
+
+
+
+        
 
     </section> <!-- end s-clients -->
 
@@ -788,7 +635,8 @@ Careers - <a href="mailto:workwithus@rfistudios.com">workwithus@rfistudios.com</
     <script src="js/main.js"></script>
     <script type="text/javascript">
         $('.aa').paroller();
-        $(".hov").hide():
+        $('.show1').css("display","none"):
+
     </script>
 
 </body>
